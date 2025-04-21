@@ -12,7 +12,7 @@ export const useWorkflowStore = create((set) => ({
   setImage: (file, previewUrl) =>
     set({ imageFile: file, imagePreview: previewUrl }),
 
-  selectedCharacter: "gefo",
+  selectedCharacter: "gfm_014x",
   setSelectedCharacter: (val) => set({ selectedCharacter: val }),
 
   selectedImageCutIndex: 0,
@@ -26,4 +26,13 @@ export const useWorkflowStore = create((set) => ({
 
   cutsceneList: [],
   setCutsceneList: (val) => set({ cutsceneList: val }),
+
+  videoOptions: {
+    lipsync: false,
+    motionSmoothing: true,
+  },
+  setVideoOptions: (options) =>
+    set((state) => ({
+      videoOptions: { ...state.videoOptions, ...options },
+    })),
 }));

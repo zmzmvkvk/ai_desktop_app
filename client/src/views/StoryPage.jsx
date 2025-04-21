@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useWorkflowStore } from "../store/workflowStore";
 import { generateStoryWithImage } from "../api/story";
 import { characterOptions } from "../constants/characterOptions";
+import { fetchCurrentStory } from "../api/fetchCurrentStory";
 
 export default function StoryPage() {
   const {
@@ -17,6 +18,18 @@ export default function StoryPage() {
     cutsceneList,
     setCutsceneList,
   } = useWorkflowStore();
+
+  useEffect(() => {
+    async function loadStory() {
+      const data = await fetchCurrentStory();
+      if (data) {
+        setStorySummary(data.summary);
+        setCutsceneList(data.cutscenes);
+        setSelectedCharacter(data.character);
+      }
+    }
+    loadStory();
+  }, []);
 
   const [isDragging, setIsDragging] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -49,6 +62,7 @@ export default function StoryPage() {
         storyPrompt,
         selectedCharacter
       );
+
       setStorySummary(result.summary || result.raw?.summary || "");
       setCutsceneList(result.cutscenes || result.raw?.cutscenes || []);
     } catch (err) {
@@ -165,29 +179,33 @@ export default function StoryPage() {
             {totalSeconds.toFixed(1)}초)
           </h2>
           <div className="grid grid-cols-2 gap-4">
-            {(cutsceneList ?? []).map((cut) => (
-              <div
-                key={cut.scene}
-                className="p-4 rounded-xl shadow bg-white border text-sm space-y-2"
-              >
-                <h4 className="text-blue-600 font-bold">장면 {cut.scene}</h4>
-                <p className="text-gray-800 font-medium">{cut.description}</p>
-                <div className="text-xs text-gray-500 grid grid-cols-2 gap-1">
-                  <p>
-                    <b>Camera:</b> {cut.camera || "N/A"}
-                  </p>
-                  <p>
-                    <b>Pose:</b> {cut.pose || "N/A"}
-                  </p>
-                  <p>
-                    <b>Face:</b> {cut.face || "N/A"}
-                  </p>
-                  <p>
-                    <b>Duration:</b> {cut.video_time || "0.0"} sec
-                  </p>
+            {(cutsceneList ?? []).map((cut, index) => {
+              const scene = cut.scene ?? index + 1;
+              const description = cut.description ?? cut; // 문자열일 경우 fallback
+              return (
+                <div
+                  key={scene}
+                  className="p-4 rounded-xl shadow bg-white border text-sm space-y-2"
+                >
+                  <h4 className="text-blue-600 font-bold">장면 {scene}</h4>
+                  <p className="text-gray-800 font-medium">{description}</p>
+                  <div className="text-xs text-gray-500 grid grid-cols-2 gap-1">
+                    <p>
+                      <b>Camera:</b> {cut.camera || "N/A"}
+                    </p>
+                    <p>
+                      <b>Pose:</b> {cut.pose || "N/A"}
+                    </p>
+                    <p>
+                      <b>Face:</b> {cut.face || "N/A"}
+                    </p>
+                    <p>
+                      <b>Duration:</b> {cut.video_time || "2.0"} sec
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

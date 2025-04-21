@@ -1,245 +1,184 @@
-{
-  "summary": "Gefo, a lively sesame oil bottle, embarks on a whimsical quest in a bustling kitchen. With a splash of adventure, Gefo must unite the ingredients to create the ultimate dish of friendship.",
-  "cutscenes": [
-    {
-      "scene": 1,
-      "description": "Gefo sits comfortably on the kitchen counter, glowing in the morning light.",
-      "camera": "wide shot",
-      "pose": "standing upright",
-      "face": "smiling",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 2,
-      "description": "Gefo notices a group of vegetables having a meeting nearby.",
-      "camera": "medium shot",
-      "pose": "leaning forward slightly",
-      "face": "curious",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 3,
-      "description": "The vegetables wave to Gefo, inviting him to join their conversation.",
-      "camera": "close-up",
-      "pose": "waving hand",
-      "face": "happy",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 4,
-      "description": "Gefo hops over to the vegetables with a little bounce.",
-      "camera": "tracking shot",
-      "pose": "hopping",
-      "face": "excited",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 5,
-      "description": "The vegetables explain that they need to create a special dish.",
-      "camera": "medium shot",
-      "pose": "arms open",
-      "face": "thoughtful",
-      "video_time": "2.5"
-    },
-    {
-      "scene": 6,
-      "description": "Gefo suggests using the sesame oil for an extra zing.",
-      "camera": "close-up",
-      "pose": "nodding",
-      "face": "confident",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 7,
-      "description": "The vegetables perk up, inspired by Gefo's idea.",
-      "camera": "wide shot",
-      "pose": "cheering",
-      "face": "enthusiastic",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 8,
-      "description": "They gather around a bowl, ready to start the cooking adventure.",
-      "camera": "overhead shot",
-      "pose": "gathering",
-      "face": "determined",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 9,
-      "description": "Gefo pours a bit of sesame oil into the bowl.",
-      "camera": "close-up",
-      "pose": "tilting bottle",
-      "face": "focused",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 10,
-      "description": "The ingredients mix together, creating a colorful swirl.",
-      "camera": "macro shot",
-      "pose": "stirring",
-      "face": "joyful",
-      "video_time": "2.5"
-    },
-    {
-      "scene": 11,
-      "description": "A delicious aroma fills the kitchen.",
-      "camera": "wide shot",
-      "pose": "lifting head",
-      "face": "content",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 12,
-      "description": "Gefo and the vegetables share a proud moment.",
-      "camera": "medium shot",
-      "pose": "group hug",
-      "face": "proud",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 13,
-      "description": "The dish is ready, sparkling on the kitchen table.",
-      "camera": "medium shot",
-      "pose": "presenting",
-      "face": "excited",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 14,
-      "description": "Gefo and the vegetables enjoy their creation together.",
-      "camera": "wide shot",
-      "pose": "sitting around dish",
-      "face": "happy",
-      "video_time": "2.5"
-    },
-    {
-      "scene": 15,
-      "description": "The kitchen animals join in to enjoy the feast.",
-      "camera": "wide shot",
-      "pose": "gathering",
-      "face": "welcoming",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 16,
-      "description": "Gefo beams with joy as everyone enjoys the meal.",
-      "camera": "close-up",
-      "pose": "smiling",
-      "face": "joyful",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 17,
-      "description": "The camera pans around the busy kitchen, filled with laughter.",
-      "camera": "pan shot",
-      "pose": "animated",
-      "face": "laughing",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 18,
-      "description": "Gefo shares a wink with a nearby spatula.",
-      "camera": "close-up",
-      "pose": "winking",
-      "face": "playful",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 19,
-      "description": "A cheerful tune plays as the camera zooms out.",
-      "camera": "zoom out",
-      "pose": "dancing",
-      "face": "cheerful",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 20,
-      "description": "Gefo stands proudly, watching the happy scene.",
-      "camera": "wide shot",
-      "pose": "standing",
-      "face": "satisfied",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 21,
-      "description": "The camera focuses on the sparkling dish.",
-      "camera": "close-up",
-      "pose": "focus on dish",
-      "face": "none",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 22,
-      "description": "The vegetables cheer, lifting Gefo into the air.",
-      "camera": "medium shot",
-      "pose": "held up",
-      "face": "triumphant",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 23,
-      "description": "Gefo waves to the camera with a joyful smile.",
-      "camera": "close-up",
-      "pose": "waving",
-      "face": "joyful",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 24,
-      "description": "Animals join in with happy dances around the table.",
-      "camera": "wide shot",
-      "pose": "dancing",
-      "face": "cheerful",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 25,
-      "description": "Gefo shares a high-five with a tomato.",
-      "camera": "close-up",
-      "pose": "high-five",
-      "face": "happy",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 26,
-      "description": "The kitchen sparkles with joy and life.",
-      "camera": "wide shot",
-      "pose": "sparkling",
-      "face": "lively",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 27,
-      "description": "Gefo hums a happy tune, bouncing slightly.",
-      "camera": "medium shot",
-      "pose": "bouncing",
-      "face": "content",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 28,
-      "description": "The camera zooms in on Gefo's cheerful expression.",
-      "camera": "close-up",
-      "pose": "smiling",
-      "face": "bright",
-      "video_time": "1.5"
-    },
-    {
-      "scene": 29,
-      "description": "The ingredients wave goodbye as the scene fades.",
-      "camera": "wide shot",
-      "pose": "waving",
-      "face": "warm",
-      "video_time": "2.0"
-    },
-    {
-      "scene": 30,
-      "description": "The kitchen is peaceful, with a lingering sense of joy.",
-      "camera": "wide shot",
-      "pose": "calm",
-      "face": "none",
-      "video_time": "1.5"
-    }
-  ]
-}
+📘 Summary:
+A story featuring spy_bx72 unfolds with a blend of playfulness and intrigue. spy_bx72 wakes up to find a coded message, leading on a whimsical adventure through a vibrant city. Each clue propels spy_bx72 from bustling streets to serene parks, guided by keen intelligence and boundless curiosity. As the day ends, spy_bx72 solves the mystery, revealing a heartfelt surprise that reaffirms connections with friends and cherished places.
+
+🎬 Cutscenes:
+
+1. spy_bx72 wakes up and looks around.
+   camera: wide shot
+   pose: sitting up
+   face: curious
+   video_time: 1.8
+
+2. spy_bx72 finds a coded message under the pillow.
+   camera: close-up
+   pose: reaching
+   face: surprised
+   video_time: 2.5
+
+3. spy_bx72 deciphers the first clue using an old book.
+   camera: over-the-shoulder
+   pose: reading
+   face: focused
+   video_time: 3.0
+
+4. spy_bx72 steps out into the bustling city.
+   camera: tracking shot
+   pose: walking
+   face: determined
+   video_time: 2.0
+
+5. spy_bx72 spots a suspicious figure in the crowd.
+   camera: zoom-in
+   pose: observing
+   face: intrigued
+   video_time: 1.5
+
+6. spy_bx72 follows the figure discreetly.
+   camera: hand-held
+   pose: sneaking
+   face: cautious
+   video_time: 2.2
+
+7. spy_bx72 arrives at a colorful mural with hidden clues.
+   camera: wide shot
+   pose: examining
+   face: thoughtful
+   video_time: 2.8
+
+8. spy_bx72 uses a magnifying glass to reveal more details.
+   camera: close-up
+   pose: inspecting
+   face: concentrated
+   video_time: 2.0
+
+9. spy_bx72 receives a text message with another hint.
+   camera: over-the-shoulder
+   pose: checking phone
+   face: curious
+   video_time: 1.5
+
+10. spy_bx72 navigates through a busy marketplace.
+    camera: tracking shot
+    pose: weaving
+    face: excited
+    video_time: 3.0
+
+11. spy_bx72 discovers a map inside a mysterious envelope.
+    camera: close-up
+    pose: opening
+    face: surprised
+    video_time: 2.5
+
+12. spy_bx72 matches the map to landmarks around.
+    camera: aerial view
+    pose: comparing
+    face: analytical
+    video_time: 2.8
+
+13. spy_bx72 climbs to a rooftop to gain a better view.
+    camera: wide shot
+    pose: climbing
+    face: adventurous
+    video_time: 3.5
+
+14. spy_bx72 waves to a friend for help.
+    camera: medium shot
+    pose: waving
+    face: hopeful
+    video_time: 1.5
+
+15. spy_bx72 arrives at a serene park for the next clue.
+    camera: wide shot
+    pose: strolling
+    face: peaceful
+    video_time: 3.0
+
+16. spy_bx72 sits by a fountain, deep in thought.
+    camera: medium shot
+    pose: sitting
+    face: pondering
+    video_time: 2.8
+
+17. spy_bx72 sees a reflection revealing a clue in the water.
+    camera: close-up
+    pose: peering
+    face: amazed
+    video_time: 2.0
+
+18. spy_bx72 follows a trail of breadcrumbs through the city.
+    camera: tracking shot
+    pose: following
+    face: curious
+    video_time: 3.0
+
+19. spy_bx72 spots a familiar pattern on a store window.
+    camera: zoom-in
+    pose: pointing
+    face: understanding
+    video_time: 1.5
+
+20. spy_bx72 enters a cozy cafe with themed decor.
+    camera: wide shot
+    pose: entering
+    face: delighted
+    video_time: 2.5
+
+21. spy_bx72 finds the last piece of the puzzle in a book.
+    camera: close-up
+    pose: turning pages
+    face: eager
+    video_time: 2.0
+
+22. spy_bx72 pieces together all clues on a table.
+    camera: top-down
+    pose: arranging
+    face: triumphant
+    video_time: 3.0
+
+23. spy_bx72 smiles as everything comes together.
+    camera: close-up
+    pose: smiling
+    face: joyful
+    video_time: 1.5
+
+24. spy_bx72 runs through the streets with newfound energy.
+    camera: tracking shot
+    pose: running
+    face: exhilarated
+    video_time: 2.5
+
+25. spy_bx72 reaches the final destination, a hidden garden.
+    camera: wide shot
+    pose: arriving
+    face: amazed
+    video_time: 3.0
+
+26. spy_bx72 finds friends waiting with a surprise party.
+    camera: medium shot
+    pose: surprised
+    face: joyful
+    video_time: 2.8
+
+27. spy_bx72 hugs a friend warmly.
+    camera: close-up
+    pose: hugging
+    face: affectionate
+    video_time: 2.2
+
+28. spy_bx72 shares a laugh with friends.
+    camera: medium shot
+    pose: laughing
+    face: happy
+    video_time: 2.0
+
+29. spy_bx72 enjoys music and dancing with everyone.
+    camera: wide shot
+    pose: dancing
+    face: carefree
+    video_time: 3.5
+
+30. spy_bx72 gazes at the sunset, feeling fulfilled.
+    camera: wide shot
+    pose: standing
+    face: content
+    video_time: 3.0

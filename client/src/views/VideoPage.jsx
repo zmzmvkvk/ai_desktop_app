@@ -1,9 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { fetchCurrentStory } from "../api/fetchCurrentStory";
 import { useWorkflowStore } from "../store/workflowStore";
+import { characterOptions } from "../constants/characterOptions";
 
 const VideoPage = () => {
-  const { cutsceneList } = useWorkflowStore();
+  const {
+    cutsceneList,
+    setCutsceneList,
+    storySummary,
+    setStorySummary,
+    selectedCharacter,
+    videoOptions,
+    setVideoOptions,
+    setSelectedCharacter,
+  } = useWorkflowStore();
   const [isGenerating, setIsGenerating] = useState(false);
+  const character = characterOptions.find((c) => c.value === selectedCharacter);
 
   const handleVideoGenerate = async (scene) => {
     setIsGenerating(true);
@@ -14,6 +26,21 @@ const VideoPage = () => {
       alert(`장면 ${scene} 영상 생성 완료 (mock)`);
     }, 1000);
   };
+
+  useEffect(() => {
+    // 이미 상태에 컷이 있으면 다시 불러올 필요 없음
+    if (cutsceneList?.length > 0) return;
+
+    const loadStory = async () => {
+      const data = await fetchCurrentStory();
+      if (data) {
+        setStorySummary(data.summary);
+        setCutsceneList(data.cutscenes);
+        setSelectedCharacter(data.character);
+      }
+    };
+    loadStory();
+  }, []);
 
   const handleBatchGenerate = async () => {
     setIsGenerating(true);
@@ -27,13 +54,37 @@ const VideoPage = () => {
     <div className="flex gap-6">
       {/* 왼쪽 설정 */}
       <div className="w-1/4 space-y-4">
-        <div className="bg-white rounded-xl p-4 shadow text-center">
-          <h3 className="text-sm font-semibold">⚙️ 립싱크 / 랜더링 옵션</h3>
-          <ul className="text-xs text-gray-600 mt-2 list-disc list-inside text-left">
-            <li>립싱크 여부 (향후 TTS 모델 연동)</li>
-            <li>영상 프레임 수 / 길이 설정</li>
-            <li>모션 스무딩 등 향후 추가</li>
-          </ul>
+        <div className="bg-white rounded-xl p-4 shadow text-center space-y-2">
+          <h3 className="text-sm font-semibold">선택된 주인공</h3>
+          <img
+            src={character.image}
+            className="w-20 h-20 mx-auto"
+            alt="캐릭터"
+          />
+          <p className="text-sm text-gray-700">{character.label}</p>
+        </div>
+        <div className="bg-white rounded-xl p-4 shadow text-left space-y-4 text-sm">
+          <h3 className="text-sm font-semibold">⚙️ 렌더링 옵션</h3>
+
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={videoOptions.lipsync}
+              onChange={(e) => setVideoOptions({ lipsync: e.target.checked })}
+            />
+            립싱크 사용
+          </label>
+
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={videoOptions.motionSmoothing}
+              onChange={(e) =>
+                setVideoOptions({ motionSmoothing: e.target.checked })
+              }
+            />
+            모션 스무딩
+          </label>
         </div>
 
         <button
@@ -60,7 +111,10 @@ const VideoPage = () => {
                 <h3 className="font-bold text-purple-600 mb-1">
                   장면 {cut.scene}
                 </h3>
-                <p className="text-sm text-gray-700 mb-3">{cut.description}</p>
+                <p className="text-sm text-gray-700 mb-1">{cut.description}</p>
+                <p className="text-xs text-gray-500">
+                  ⏱️ 길이: {cut.video_time || 2.0}초
+                </p>
               </div>
               <button
                 className="bg-black text-white py-1 px-3 rounded hover:bg-gray-800 text-sm"

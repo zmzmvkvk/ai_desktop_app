@@ -1,15 +1,44 @@
-import React, { useState } from "react";
+// client/src/views/ImagePage.jsx
+import React, { useEffect, useState } from "react";
 import { useWorkflowStore } from "../store/workflowStore";
 import { characterOptions } from "../constants/characterOptions";
 import { styleOptions } from "../constants/styleOptions";
+import { fetchCurrentStory } from "../api/fetchCurrentStory";
 
 const ImagePage = () => {
-  const { cutsceneList, selectedCharacter, imageStyle, setImageStyle } =
-    useWorkflowStore();
+  const {
+    cutsceneList,
+    setCutsceneList,
+    selectedCharacter,
+    setSelectedCharacter,
+    imageStyle,
+    setImageStyle,
+    setStorySummary,
+  } = useWorkflowStore();
+
+  const [isGenerating, setIsGenerating] = useState(false);
+
+  useEffect(() => {
+    async function loadFromFirestore() {
+      const data = await fetchCurrentStory();
+      if (data) {
+        setSelectedCharacter(data.character);
+        setStorySummary(data.summary);
+        setCutsceneList(data.cutscenes);
+      }
+    }
+    loadFromFirestore();
+  }, []);
 
   const character = characterOptions.find((c) => c.value === selectedCharacter);
 
-  const [isGenerating, setIsGenerating] = useState(false);
+  if (!character) {
+    return (
+      <div className="p-8 text-center text-gray-500">
+        ⚠️ 캐릭터 정보가 없습니다. 먼저 스토리를 생성해주세요.
+      </div>
+    );
+  }
 
   const handleImageGenerate = async (scene) => {
     setIsGenerating(true);
