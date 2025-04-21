@@ -1,0 +1,305 @@
+{
+  "summary": "Gefo, a curious bottle of sesame oil, dreams of becoming a master chef in the enchanted kitchen world. Along the way, Gefo meets talking vegetables and magical spices who help guide him in creating the perfect dish for the Grand Feast of Flavors.",
+  "cutscenes": [
+    {
+      "scene": 1,
+      "description": "Gefo stands on a kitchen countertop, looking around eagerly.",
+      "script": "I can't wait to start cooking!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "standing",
+      "face": "excited",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 2,
+      "description": "A group of carrots starts to whistle a cheerful tune.",
+      "script": "Join us, Gefo!",
+      "narration": "",
+      "camera": "medium",
+      "pose": "waving",
+      "face": "smiling",
+      "video_time": "1.5"
+    },
+    {
+      "scene": 3,
+      "description": "Gefo bounces over to the carrots, his cap twisting in delight.",
+      "script": "Let's make something delicious!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "bouncing",
+      "face": "joyful",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 4,
+      "description": "The spices on the shelf begin to twinkle and glow.",
+      "script": "We bring a sprinkle of magic!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "twinkling",
+      "face": "glowing",
+      "video_time": "2.5"
+    },
+    {
+      "scene": 5,
+      "description": "Gefo nods, understanding the importance of spices.",
+      "script": "We can't forget the magic!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "nodding",
+      "face": "determined",
+      "video_time": "1.8"
+    },
+    {
+      "scene": 6,
+      "description": "A friendly tomato rolls over with a smile.",
+      "script": "Let's get cooking, Gefo!",
+      "narration": "",
+      "camera": "medium",
+      "pose": "rolling",
+      "face": "friendly",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 7,
+      "description": "Gefo sprinkles sesame oil onto a colorful salad.",
+      "script": "This is gonna be delicious!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "sprinkling",
+      "face": "happy",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 8,
+      "description": "The salad springs to life, shimmering with flavor.",
+      "script": "Wow, it's sparkling!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "shimmering",
+      "face": "amazed",
+      "video_time": "2.5"
+    },
+    {
+      "scene": 9,
+      "description": "Gefo and friends watch as the dish gets placed on the feast table.",
+      "script": "We did it together!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "watching",
+      "face": "content",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 10,
+      "description": "A colorful array of dishes surround the vibrant salad.",
+      "script": "The Grand Feast of Flavors has begun!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "arranged",
+      "face": "celebratory",
+      "video_time": "2.5"
+    },
+    {
+      "scene": 11,
+      "description": "Gefo beams with pride as guests admire the food.",
+      "script": "Everything looks amazing!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "beaming",
+      "face": "proud",
+      "video_time": "1.8"
+    },
+    {
+      "scene": 12,
+      "description": "A cherry tomato bounces with excitement.",
+      "script": "Look at all the happy faces!",
+      "narration": "",
+      "camera": "medium",
+      "pose": "bouncing",
+      "face": "excited",
+      "video_time": "1.5"
+    },
+    {
+      "scene": 13,
+      "description": "Guests clap and cheer, enjoying the flavors.",
+      "script": "This is the best feast ever!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "clapping",
+      "face": "cheerful",
+      "video_time": "2.2"
+    },
+    {
+      "scene": 14,
+      "description": "Gefo playfully rolls along the table to greet everyone.",
+      "script": "Welcome, welcome!",
+      "narration": "",
+      "camera": "medium",
+      "pose": "rolling",
+      "face": "welcoming",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 15,
+      "description": "The vegetables gather around Gefo in a circle.",
+      "script": "Thank you, Gefo!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "gathered",
+      "face": "grateful",
+      "video_time": "1.8"
+    },
+    {
+      "scene": 16,
+      "description": "Gefo smiles, feeling fulfilled with joy.",
+      "script": "We made something wonderful together!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "smiling",
+      "face": "joyful",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 17,
+      "description": "The kitchen glows with warmth and laughter.",
+      "script": "The kitchen is alive with happiness!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "glowing",
+      "face": "happy",
+      "video_time": "2.5"
+    },
+    {
+      "scene": 18,
+      "description": "Gefo spins in a dance of delight.",
+      "script": "Let's dance and celebrate!",
+      "narration": "",
+      "camera": "medium",
+      "pose": "spinning",
+      "face": "gleeful",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 19,
+      "description": "The spices twirl in the air, sparkling.",
+      "script": "Sprinkle the magic everywhere!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "twirling",
+      "face": "sparkling",
+      "video_time": "2.5"
+    },
+    {
+      "scene": 20,
+      "description": "Vegetables jump in rhythm around Gefo.",
+      "script": "Join the celebration dance!",
+      "narration": "",
+      "camera": "medium",
+      "pose": "jumping",
+      "face": "joyful",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 21,
+      "description": "Gefo looks at the clock, realizing it's time for the toasts.",
+      "script": "Time to toast to our achievements!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "looking",
+      "face": "thoughtful",
+      "video_time": "1.8"
+    },
+    {
+      "scene": 22,
+      "description": "Tomato raises a glass of juice in celebration.",
+      "script": "To friendship and flavors!",
+      "narration": "",
+      "camera": "medium",
+      "pose": "raising glass",
+      "face": "happy",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 23,
+      "description": "Gefo raises his cap in response, smiling widely.",
+      "script": "Cheers everyone!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "raising cap",
+      "face": "smiling",
+      "video_time": "1.5"
+    },
+    {
+      "scene": 24,
+      "description": "The entire kitchen bursts into joyful laughter.",
+      "script": "Laughter fills the air!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "laughing",
+      "face": "happy",
+      "video_time": "2.5"
+    },
+    {
+      "scene": 25,
+      "description": "Gefo, surrounded by friends, feels appreciated and loved.",
+      "script": "I couldn't have done it without you.",
+      "narration": "",
+      "camera": "medium",
+      "pose": "surrounded",
+      "face": "grateful",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 26,
+      "description": "The kitchen lights dim, creating a cozy atmosphere.",
+      "script": "Let's make this night unforgettable!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "dimmed",
+      "face": "content",
+      "video_time": "2.5"
+    },
+    {
+      "scene": 27,
+      "description": "Gefo winks at a glowing pepper, signaling a secret plan.",
+      "script": "Time for a special surprise!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "winking",
+      "face": "mischievous",
+      "video_time": "1.8"
+    },
+    {
+      "scene": 28,
+      "description": "The spices begin to glow, casting colorful patterns.",
+      "script": "Wow, the magic is beautiful!",
+      "narration": "",
+      "camera": "medium",
+      "pose": "glowing",
+      "face": "amazed",
+      "video_time": "2.5"
+    },
+    {
+      "scene": 29,
+      "description": "Gefo takes a moment to cherish this magical night.",
+      "script": "I'll remember this forever!",
+      "narration": "",
+      "camera": "close-up",
+      "pose": "cherishing",
+      "face": "content",
+      "video_time": "2.0"
+    },
+    {
+      "scene": 30,
+      "description": "The kitchen lights up with a final, dazzling display.",
+      "script": "Here's to many more adventures!",
+      "narration": "",
+      "camera": "wide",
+      "pose": "lit up",
+      "face": "hopeful",
+      "video_time": "2.5"
+    }
+  ]
+}
