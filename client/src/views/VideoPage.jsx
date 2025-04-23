@@ -7,7 +7,6 @@ const VideoPage = () => {
   const {
     cutsceneList,
     setCutsceneList,
-    storySummary,
     setStorySummary,
     selectedCharacter,
     videoOptions,
