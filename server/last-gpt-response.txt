@@ -1,0 +1,183 @@
+📘 Summary:
+A story featuring cfx_9zq0 unfolds in a vibrant aquatic world where time and precision are everything. cfx_9zq0, known for exceptional swimming prowess and undeniable charm, embarks on a quest to find the mythical Tide Jewel, believed to grant the holder mastery over the ocean's rhythms. Along the journey, cfx_9zq0 encounters mysterious underwater realms and challenges that test skill and resolve. With the Sportcount watch as a guide, each second counts as cfx_9zq0 races against time to uncover the secrets of the deep.
+
+🎬 Cutscenes:
+1. cfx_9zq0 wakes up and looks around.
+   camera: wide shot
+   pose: sitting up
+   face: curious
+   video_time: 1.8
+
+2. cfx_9zq0 walks out into the morning light, feeling the warmth of the sun.
+   camera: tracking shot
+   pose: walking
+   face: calm
+   video_time: 2.0
+
+3. cfx_9zq0 checks the Sportcount watch before diving into the pool.
+   camera: close-up on wrist
+   pose: adjusting watch
+   face: determined
+   video_time: 1.5
+
+4. cfx_9zq0 dives gracefully into the water, leaving a trail of bubbles.
+   camera: underwater shot
+   pose: diving
+   face: focused
+   video_time: 2.3
+
+5. cfx_9zq0 swims effortlessly, the water gliding over.
+   camera: side shot
+   pose: swimming
+   face: concentrated
+   video_time: 2.5
+
+6. cfx_9zq0 notices a glimmering object at the pool's bottom.
+   camera: underwater close-up
+   pose: pointing
+   face: intrigued
+   video_time: 2.0
+
+7. cfx_9zq0 reaches for the object, curious about its origins.
+   camera: close-up
+   pose: reaching
+   face: focused
+   video_time: 1.8
+
+8. cfx_9zq0 surfaces with the object, examining its details closely.
+   camera: over-the-shoulder
+   pose: inspecting
+   face: thoughtful
+   video_time: 2.2
+
+9. cfx_9zq0 consults the Sportcount watch once more, ready to begin the quest.
+   camera: close-up on watch
+   pose: adjusting
+   face: resolved
+   video_time: 1.7
+
+10. cfx_9zq0 swims towards the open ocean, determination in every stroke.
+    camera: wide shot
+    pose: swimming
+    face: determined
+    video_time: 2.4
+
+11. cfx_9zq0 glides through a field of colorful coral.
+    camera: side shot
+    pose: gliding
+    face: amazed
+    video_time: 2.5
+
+12. cfx_9zq0 encounters a playful group of dolphins, joining their dance.
+    camera: wide shot
+    pose: twirling
+    face: joyous
+    video_time: 3.0
+
+13. cfx_9zq0 follows the dolphins to a hidden underwater cave.
+    camera: tracking shot
+    pose: swimming
+    face: curious
+    video_time: 2.8
+
+14. cfx_9zq0 finds ancient carvings on the cave walls, hints to the Tide Jewel.
+    camera: close-up
+    pose: tracing carvings
+    face: intrigued
+    video_time: 2.5
+
+15. cfx_9zq0 pauses to reflect on the journey so far.
+    camera: medium shot
+    pose: contemplative
+    face: serene
+    video_time: 2.0
+
+16. cfx_9zq0 navigates through a series of challenging underwater currents.
+    camera: dynamic shot
+    pose: maneuvering
+    face: focused
+    video_time: 3.2
+
+17. cfx_9zq0 stops at an enchanting underwater garden, mesmerized by its beauty.
+    camera: wide shot
+    pose: hovering
+    face: amazed
+    video_time: 2.8
+
+18. cfx_9zq0 interacts with a wise old turtle, gaining insights about the Jewel.
+    camera: close-up
+    pose: listening
+    face: attentive
+    video_time: 3.0
+
+19. cfx_9zq0 receives a clue from the turtle, charting the next course.
+    camera: medium shot
+    pose: nodding
+    face: understanding
+    video_time: 2.6
+
+20. cfx_9zq0 faces an imposing underwater vortex, gathering courage to continue.
+    camera: wide shot
+    pose: preparing
+    face: determined
+    video_time: 3.0
+
+21. cfx_9zq0 skillfully navigates the vortex, using swift movements.
+    camera: dynamic shot
+    pose: swimming
+    face: intense
+    video_time: 3.3
+
+22. cfx_9zq0 emerges in a serene lagoon, taking a moment to breathe.
+    camera: overhead shot
+    pose: floating
+    face: tranquil
+    video_time: 2.5
+
+23. cfx_9zq0 spots the glimmer of the Tide Jewel nestled in the lagoon's center.
+    camera: zoom-in
+    pose: pointing
+    face: excited
+    video_time: 2.0
+
+24. cfx_9zq0 approaches the Jewel, feeling its power and allure.
+    camera: close-up
+    pose: reaching
+    face: awe-struck
+    video_time: 2.6
+
+25. cfx_9zq0 holds the Tide Jewel, sensing its connection to the ocean.
+    camera: medium shot
+    pose: holding
+    face: reverent
+    video_time: 3.0
+
+26. cfx_9zq0 hears the call of the sea, embracing the Jewel's potential.
+    camera: wide shot
+    pose: standing
+    face: enlightened
+    video_time: 2.8
+
+27. cfx_9zq0 swims back, feeling the ocean's rhythm more than ever.
+    camera: side shot
+    pose: swimming
+    face: harmonious
+    video_time: 3.0
+
+28. cfx_9zq0 emerges from the water, the journey complete.
+    camera: wide shot
+    pose: standing
+    face: fulfilled
+    video_time: 2.2
+
+29. cfx_9zq0 looks at the Sportcount watch, seeing the time well spent.
+    camera: close-up on watch
+    pose: checking
+    face: satisfied
+    video_time: 1.5
+
+30. cfx_9zq0 smiles, ready for new adventures and discoveries.
+    camera: close-up
+    pose: smiling
+    face: hopeful
+    video_time: 2.0

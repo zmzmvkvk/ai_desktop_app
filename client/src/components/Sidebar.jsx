@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu } from "lucide-react";
 import { useWorkflowStore } from "../store/workflowStore";
 
-const tabs = ["대시보드", "스토리", "이미지", "영상", "결과"];
+const tabs = ["스토리", "이미지", "영상", "결과"];
 
 export default function Sidebar({ alwaysVisible = false }) {
   const [isOpen, setIsOpen] = useState(false);

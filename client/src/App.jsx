@@ -1,5 +1,4 @@
 import { useWorkflowStore } from "./store/workflowStore";
-import Dashboard from "./views/Dashboard";
 import StoryPage from "./views/StoryPage";
 import ImagePage from "./views/ImagePage";
 import VideoPage from "./views/VideoPage";
@@ -11,8 +10,6 @@ export default function App() {
 
   const renderPage = () => {
     switch (step) {
-      case "대시보드":
-        return <Dashboard />;
       case "스토리":
         return <StoryPage />;
       case "이미지":

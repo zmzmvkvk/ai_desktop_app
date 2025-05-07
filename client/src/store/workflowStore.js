@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 export const useWorkflowStore = create((set) => ({
-  step: "대시보드",
+  step: "스토리",
   setStep: (step) => set({ step }),
 
   storyPrompt: "",
