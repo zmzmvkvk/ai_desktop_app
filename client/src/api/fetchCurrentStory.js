@@ -1,4 +1,4 @@
-// client/src/api/fetchCurrentStory.js
+// client/src/api/fetchCurrentStory.js햣
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase/firebaseClient";
 
