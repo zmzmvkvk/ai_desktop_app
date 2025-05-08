@@ -17,6 +17,7 @@ const ImagePage = () => {
   } = useWorkflowStore();
 
   const [isGenerating, setIsGenerating] = useState(false);
+  const [images, setImages] = useState({});
 
   useEffect(() => {
     async function loadFromFirestore() {
@@ -40,14 +41,21 @@ const ImagePage = () => {
     );
   }
 
-  const handleImageGenerate = async (scene) => {
+  const handleImageGenerate = async (prompt, scene) => {
     setIsGenerating(true);
-    console.log("이미지 생성 요청:", scene);
-    // TODO: ComfyUI API 요청
-    setTimeout(() => {
-      setIsGenerating(false);
-      alert(`장면 ${scene} 이미지 생성 완료 (mock)`);
-    }, 1000);
+    try {
+      const res = await fetch("http://100.88.154.55:3001/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt }),
+      });
+
+      const data = await res.json();
+      setImages((prev) => ({ ...prev, [scene]: data.image }));
+    } catch (err) {
+      console.error("❌ 서버 호출 실패:", err);
+    }
+    setIsGenerating(false);
   };
 
   const handleBatchGenerate = async () => {
@@ -123,14 +131,22 @@ const ImagePage = () => {
                 <h3 className="font-bold text-blue-600 mb-1">
                   장면 {cut.scene}
                 </h3>
-                <p className="text-sm text-gray-700 mb-3">{cut.description}</p>
+                <p className="text-sm text-gray-700 mb-3">{cut.prompt}</p>
               </div>
               <button
                 className="bg-black text-white py-1 px-3 rounded hover:bg-gray-800 text-sm"
-                onClick={() => handleImageGenerate(cut.scene)}
+                onClick={() => handleImageGenerate(cut.prompt, cut.scene)}
               >
                 이미지 생성
               </button>
+
+              {images[cut.scene] && (
+                <img
+                  src={images[cut.scene]}
+                  alt="생성된 이미지"
+                  className="mt-3 w-full rounded"
+                />
+              )}
             </div>
           ))}
         </div>

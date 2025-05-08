@@ -35,6 +35,9 @@ You are an AI visual storyteller. Based on the uploaded character image and the 
 - The story theme is: "${prompt}"
 - The uploaded image represents the visual style, personality, or vibe of this character.
 - Use the image as inspiration for how the character moves, acts, and appears.
+- For each cutscene, also generate an AI image prompt in the style of Stable Diffusion/ComfyUI.
+- The prompt must describe the scene visually using descriptive tags (style, background, lighting, composition).
+- The prompt must include the LoRA trigger tag: "${selectedCharacter}"
 
 🔧 Output Requirements:
 - 📘 Summary (3~5 sentences) that clearly features ${selectedCharacter} as the protagonist.
@@ -60,14 +63,15 @@ A story featuring ${selectedCharacter}...
   pose: sitting up
   face: curious
   video_time: 1.8
+  prompt: A cartoon-style illustration of ${selectedCharacter} sitting up in bed, wide shot, curious face, morning light, flat vector, 2D clean style, white background
+
 
 2. ${selectedCharacter} walks out into the morning light...
   camera: tracking shot
   pose: walking
   face: calm
   video_time: 2.0
-
-
+  prompt: A cartoon-style illustration of ${selectedCharacter} sitting up in bed, wide shot, curious face, morning light, flat vector, 2D clean style, white background
 
 Return **only** the content in this format. No extra explanations or commentary.
 Only use the name "${selectedCharacter}" when referring to the main character in every cutscene. Never use "she", "he", etc.
@@ -135,6 +139,11 @@ Only use the name "${selectedCharacter}" when referring to the main character in
           .find((l) => l.startsWith("video_time:"))
           ?.split("video_time:")[1]
           ?.trim() || "2.0";
+      const prompt =
+        lines
+          .find((l) => l.startsWith("prompt:"))
+          ?.split("prompt:")[1]
+          ?.trim() || `A cartoon-style illustration of ${selectedCharacter}`;
 
       return {
         scene: i + 1,
@@ -143,6 +152,7 @@ Only use the name "${selectedCharacter}" when referring to the main character in
         pose,
         face,
         video_time: parseFloat(time),
+        prompt,
       };
     });
 

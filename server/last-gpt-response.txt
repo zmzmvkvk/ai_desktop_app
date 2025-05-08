@@ -1,183 +1,214 @@
 📘 Summary:
-A story featuring cfx_9zq0 unfolds in a vibrant aquatic world where time and precision are everything. cfx_9zq0, known for exceptional swimming prowess and undeniable charm, embarks on a quest to find the mythical Tide Jewel, believed to grant the holder mastery over the ocean's rhythms. Along the journey, cfx_9zq0 encounters mysterious underwater realms and challenges that test skill and resolve. With the Sportcount watch as a guide, each second counts as cfx_9zq0 races against time to uncover the secrets of the deep.
+A story featuring gfm_014x, an adventurous and determined figure, unfolds in the serene coastal town of Seaforth. With the annual "잠수 대결" (Dive Challenge) approaching, gfm_014x trains rigorously to perfect their diving techniques. As the competition day arrives, gfm_014x demonstrates extraordinary skills, facing thrilling underwater challenges and ultimately proving their prowess in the grand dive showdown. The spirit of adventure and dedication leads gfm_014x to achieve a remarkable victory in the Dive Challenge.
 
 🎬 Cutscenes:
-1. cfx_9zq0 wakes up and looks around.
+
+1. gfm_014x wakes up and looks around.
    camera: wide shot
    pose: sitting up
    face: curious
    video_time: 1.8
+   prompt: A cartoon-style illustration of gfm_014x sitting up in bed, wide shot, curious face, morning light, flat vector, 2D clean style, white background, "gfm_014x"
 
-2. cfx_9zq0 walks out into the morning light, feeling the warmth of the sun.
+2. gfm_014x walks out into the morning light.
    camera: tracking shot
    pose: walking
    face: calm
    video_time: 2.0
+   prompt: A cartoon-style illustration of gfm_014x walking outside in morning light, tracking shot, calm face, bright colors, dynamic composition, seaside setting, "gfm_014x"
 
-3. cfx_9zq0 checks the Sportcount watch before diving into the pool.
-   camera: close-up on wrist
-   pose: adjusting watch
-   face: determined
-   video_time: 1.5
-
-4. cfx_9zq0 dives gracefully into the water, leaving a trail of bubbles.
-   camera: underwater shot
-   pose: diving
+3. gfm_014x stretches by the ocean.
+   camera: medium shot
+   pose: stretching
    face: focused
-   video_time: 2.3
-
-5. cfx_9zq0 swims effortlessly, the water gliding over.
-   camera: side shot
-   pose: swimming
-   face: concentrated
    video_time: 2.5
+   prompt: A cartoon-style illustration of gfm_014x stretching by the ocean, medium shot, focused face, sunrise background, vibrant colors, detailed waves, "gfm_014x"
 
-6. cfx_9zq0 notices a glimmering object at the pool's bottom.
-   camera: underwater close-up
-   pose: pointing
-   face: intrigued
-   video_time: 2.0
-
-7. cfx_9zq0 reaches for the object, curious about its origins.
+4. gfm_014x examines a diving watch.
    camera: close-up
-   pose: reaching
-   face: focused
-   video_time: 1.8
-
-8. cfx_9zq0 surfaces with the object, examining its details closely.
-   camera: over-the-shoulder
-   pose: inspecting
-   face: thoughtful
+   pose: holding watch
+   face: intrigued
    video_time: 2.2
+   prompt: A cartoon-style illustration of gfm_014x holding a diving watch, close-up, intrigued expression, digital display, colorful details, "gfm_014x"
 
-9. cfx_9zq0 consults the Sportcount watch once more, ready to begin the quest.
-   camera: close-up on watch
-   pose: adjusting
-   face: resolved
-   video_time: 1.7
+5. gfm_014x dives into the water.
+   camera: wide shot
+   pose: diving
+   face: determined
+   video_time: 2.8
+   prompt: A cartoon-style illustration of gfm_014x diving into the ocean, wide shot, determined face, splash effect, clear blue water, dynamic angles, "gfm_014x"
 
-10. cfx_9zq0 swims towards the open ocean, determination in every stroke.
+6. gfm_014x swims underwater.
+   camera: underwater shot
+   pose: swimming
+   face: focused
+   video_time: 3.0
+   prompt: A cartoon-style illustration of gfm_014x swimming underwater, underwater shot, focused face, vibrant marine life, clear visibility, flowing movements, "gfm_014x"
+
+7. gfm_014x encounters colorful fish.
+   camera: medium shot
+   pose: reaching out
+   face: amazed
+   video_time: 3.5
+   prompt: A cartoon-style illustration of gfm_014x reaching out to colorful fish, medium shot, amazed face, underwater scenery, diverse marine life, bright tones, "gfm_014x"
+
+8. gfm_014x practices holding breath.
+   camera: close-up
+   pose: holding nose
+   face: concentrated
+   video_time: 2.7
+   prompt: A cartoon-style illustration of gfm_014x practicing breath-holding, close-up, concentrated expression, bubbles rising, serene underwater, soft lighting, "gfm_014x"
+
+9. gfm_014x surfaces and checks the time.
+   camera: medium shot
+   pose: emerging
+   face: satisfied
+   video_time: 3.2
+   prompt: A cartoon-style illustration of gfm_014x surfacing and checking the time, medium shot, satisfied expression, bright sun, sparkling water, cheerful atmosphere, "gfm_014x"
+
+10. gfm_014x prepares gear for the competition.
     camera: wide shot
-    pose: swimming
-    face: determined
-    video_time: 2.4
-
-11. cfx_9zq0 glides through a field of colorful coral.
-    camera: side shot
-    pose: gliding
-    face: amazed
-    video_time: 2.5
-
-12. cfx_9zq0 encounters a playful group of dolphins, joining their dance.
-    camera: wide shot
-    pose: twirling
-    face: joyous
-    video_time: 3.0
-
-13. cfx_9zq0 follows the dolphins to a hidden underwater cave.
-    camera: tracking shot
-    pose: swimming
-    face: curious
-    video_time: 2.8
-
-14. cfx_9zq0 finds ancient carvings on the cave walls, hints to the Tide Jewel.
-    camera: close-up
-    pose: tracing carvings
-    face: intrigued
-    video_time: 2.5
-
-15. cfx_9zq0 pauses to reflect on the journey so far.
-    camera: medium shot
-    pose: contemplative
-    face: serene
-    video_time: 2.0
-
-16. cfx_9zq0 navigates through a series of challenging underwater currents.
-    camera: dynamic shot
-    pose: maneuvering
+    pose: organizing
     face: focused
-    video_time: 3.2
+    video_time: 3.1
+    prompt: A cartoon-style illustration of gfm_014x organizing diving gear, wide shot, focused face, colorful equipment, animated setting, anticipation in the air, "gfm_014x"
 
-17. cfx_9zq0 stops at an enchanting underwater garden, mesmerized by its beauty.
+11. gfm_014x arrives at the Dive Challenge venue.
     camera: wide shot
-    pose: hovering
-    face: amazed
-    video_time: 2.8
-
-18. cfx_9zq0 interacts with a wise old turtle, gaining insights about the Jewel.
-    camera: close-up
-    pose: listening
-    face: attentive
-    video_time: 3.0
-
-19. cfx_9zq0 receives a clue from the turtle, charting the next course.
-    camera: medium shot
-    pose: nodding
-    face: understanding
-    video_time: 2.6
-
-20. cfx_9zq0 faces an imposing underwater vortex, gathering courage to continue.
-    camera: wide shot
-    pose: preparing
-    face: determined
-    video_time: 3.0
-
-21. cfx_9zq0 skillfully navigates the vortex, using swift movements.
-    camera: dynamic shot
-    pose: swimming
-    face: intense
-    video_time: 3.3
-
-22. cfx_9zq0 emerges in a serene lagoon, taking a moment to breathe.
-    camera: overhead shot
-    pose: floating
-    face: tranquil
-    video_time: 2.5
-
-23. cfx_9zq0 spots the glimmer of the Tide Jewel nestled in the lagoon's center.
-    camera: zoom-in
-    pose: pointing
+    pose: entering
     face: excited
-    video_time: 2.0
+    video_time: 3.3
+    prompt: A cartoon-style illustration of gfm_014x entering the Dive Challenge venue, wide shot, excited face, festive decoration, energetic crowd, vivid colors, "gfm_014x"
 
-24. cfx_9zq0 approaches the Jewel, feeling its power and allure.
-    camera: close-up
-    pose: reaching
-    face: awe-struck
-    video_time: 2.6
-
-25. cfx_9zq0 holds the Tide Jewel, sensing its connection to the ocean.
+12. gfm_014x greets fellow divers.
     camera: medium shot
-    pose: holding
-    face: reverent
-    video_time: 3.0
+    pose: waving
+    face: friendly
+    video_time: 2.9
+    prompt: A cartoon-style illustration of gfm_014x waving to fellow divers, medium shot, friendly expression, diverse characters, lively ambiance, warm tones, "gfm_014x"
 
-26. cfx_9zq0 hears the call of the sea, embracing the Jewel's potential.
+13. gfm_014x listens to competition rules.
+    camera: close-up
+    pose: attentive
+    face: serious
+    video_time: 2.6
+    prompt: A cartoon-style illustration of gfm_014x listening to competition rules, close-up, serious face, attentive posture, animated expressions, focused environment, "gfm_014x"
+
+14. gfm_014x watches other divers perform.
     camera: wide shot
-    pose: standing
-    face: enlightened
+    pose: observing
+    face: analytical
     video_time: 2.8
+    prompt: A cartoon-style illustration of gfm_014x observing divers perform, wide shot, analytical face, dynamic diving actions, vivid pool area, competitive spirit, "gfm_014x"
 
-27. cfx_9zq0 swims back, feeling the ocean's rhythm more than ever.
-    camera: side shot
-    pose: swimming
-    face: harmonious
+15. gfm_014x takes a deep breath before diving.
+    camera: close-up
+    pose: deep breath
+    face: calm
     video_time: 3.0
+    prompt: A cartoon-style illustration of gfm_014x taking a deep breath, close-up, calm face, serene background, gentle colors, focused intention, "gfm_014x"
 
-28. cfx_9zq0 emerges from the water, the journey complete.
+16. gfm_014x executes a perfect dive.
+    camera: medium shot
+    pose: diving
+    face: focused
+    video_time: 3.4
+    prompt: A cartoon-style illustration of gfm_014x executing a perfect dive, medium shot, focused face, seamless movement, sparkling water, graceful artistry, "gfm_014x"
+
+17. gfm_014x experiences an underwater current.
+    camera: underwater shot
+    pose: stabilizing
+    face: surprised
+    video_time: 3.1
+    prompt: A cartoon-style illustration of gfm_014x experiencing an underwater current, underwater shot, surprised expression, dynamic water movement, dramatic lighting, "gfm_014x"
+
+18. gfm_014x regains balance and continues swimming.
     camera: wide shot
-    pose: standing
-    face: fulfilled
-    video_time: 2.2
+    pose: swimming
+    face: determined
+    video_time: 3.2
+    prompt: A cartoon-style illustration of gfm_014x swimming determinedly, wide shot, determined face, overcoming challenges, energetic strokes, vivid underwater scene, "gfm_014x"
 
-29. cfx_9zq0 looks at the Sportcount watch, seeing the time well spent.
-    camera: close-up on watch
-    pose: checking
-    face: satisfied
-    video_time: 1.5
+19. gfm_014x navigates through underwater obstacles.
+    camera: medium shot
+    pose: dodging
+    face: concentrated
+    video_time: 3.3
+    prompt: A cartoon-style illustration of gfm_014x navigating underwater obstacles, medium shot, concentrated face, intricate coral formations, swift movements, vibrant colors, "gfm_014x"
 
-30. cfx_9zq0 smiles, ready for new adventures and discoveries.
+20. gfm_014x spots the finish line.
+    camera: wide shot
+    pose: accelerating
+    face: eager
+    video_time: 3.5
+    prompt: A cartoon-style illustration of gfm_014x spotting the finish line, wide shot, eager face, powerful swimming, radiant underwater glow, animated race atmosphere, "gfm_014x"
+
+21. gfm_014x surfaces triumphantly.
+    camera: medium shot
+    pose: emerging
+    face: joyful
+    video_time: 3.0
+    prompt: A cartoon-style illustration of gfm_014x surfacing triumphantly, medium shot, joyful expression, water droplets, bright daylight, victorious mood, "gfm_014x"
+
+22. gfm_014x reaches the judge's podium.
+    camera: wide shot
+    pose: walking
+    face: proud
+    video_time: 3.4
+    prompt: A cartoon-style illustration of gfm_014x walking to the judge's podium, wide shot, proud face, animated crowd, lively setting, colorful decorations, "gfm_014x"
+
+23. gfm_014x receives a medal.
+    camera: medium shot
+    pose: accepting
+    face: grateful
+    video_time: 3.2
+    prompt: A cartoon-style illustration of gfm_014x accepting a medal, medium shot, grateful face, shiny medal, cheerful atmosphere, celebratory tones, "gfm_014x"
+
+24. gfm_014x poses for a victory photo.
     camera: close-up
     pose: smiling
+    face: triumphant
+    video_time: 2.9
+    prompt: A cartoon-style illustration of gfm_014x posing for a victory photo, close-up, triumphant smile, glowing background, vibrant colors, happy moment, "gfm_014x"
+
+25. gfm_014x celebrates with fellow competitors.
+    camera: wide shot
+    pose: cheering
+    face: ecstatic
+    video_time: 3.3
+    prompt: A cartoon-style illustration of gfm_014x celebrating with fellow competitors, wide shot, ecstatic faces, animated crowd, festive scenery, colorful confetti, "gfm_014x"
+
+26. gfm_014x reflects on the journey.
+    camera: medium shot
+    pose: thoughtful
+    face: reflective
+    video_time: 3.1
+    prompt: A cartoon-style illustration of gfm_014x reflecting on the journey, medium shot, reflective expression, sunset background, warm colors, peaceful ambiance, "gfm_014x"
+
+27. gfm_014x enjoys a moment by the sea.
+    camera: wide shot
+    pose: sitting
+    face: content
+    video_time: 3.5
+    prompt: A cartoon-style illustration of gfm_014x sitting by the sea, wide shot, content face, gentle waves, soft sunset light, serene setting, "gfm_014x"
+
+28. gfm_014x shares experiences with friends.
+    camera: medium shot
+    pose: talking
+    face: animated
+    video_time: 3.0
+    prompt: A cartoon-style illustration of gfm_014x sharing experiences with friends, medium shot, animated expressions, vibrant conversation, joyful tone, social atmosphere, "gfm_014x"
+
+29. gfm_014x plans for future adventures.
+    camera: close-up
+    pose: writing
+    face: inspired
+    video_time: 3.2
+    prompt: A cartoon-style illustration of gfm_014x planning future adventures, close-up, inspired face, notebook, imaginative sketches, creative environment, "gfm_014x"
+
+30. gfm_014x bids farewell to the Dive Challenge.
+    camera: wide shot
+    pose: waving
     face: hopeful
-    video_time: 2.0
+    video_time: 3.4
+    prompt: A cartoon-style illustration of gfm_014x waving goodbye to the Dive Challenge, wide shot, hopeful expression, colorful banners, setting sun, emotional farewell, "gfm_014x"
