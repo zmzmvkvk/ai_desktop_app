@@ -26,6 +26,14 @@ const ImagePage = () => {
         setSelectedCharacter(data.character);
         setStorySummary(data.summary);
         setCutsceneList(data.cutscenes);
+        // 이미 생성된 이미지가 있다면 images 상태에 추가
+        const existingImages = {};
+        data.cutscenes.forEach((cut) => {
+          if (cut.imageUrl) {
+            existingImages[cut.scene] = cut.imageUrl;
+          }
+        });
+        setImages((prev) => ({ ...prev, ...existingImages }));
       }
     }
     loadFromFirestore();
@@ -41,19 +49,40 @@ const ImagePage = () => {
     );
   }
 
-  const handleImageGenerate = async (prompt, scene) => {
+  const handleImageGenerate = async (sceneId) => {
+    // ✨ 컷씬 ID만 받도록 변경
     setIsGenerating(true);
     try {
-      const res = await fetch("http://100.88.154.55:3001/generate", {
+      // ✨ 백엔드 서버의 새로운 엔드포인트 호출
+      const res = await fetch("http://localhost:4000/image/generate-image", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt }),
+        body: JSON.stringify({
+          sceneId: sceneId,
+          character: selectedCharacter, // 현재 선택된 캐릭터도 함께 전달
+          style: imageStyle, // 현재 선택된 스타일도 함께 전달
+        }),
       });
 
+      if (!res.ok) {
+        const errorData = await res.json();
+        throw new Error(
+          `서버 오류: ${res.statusText || res.status}, ${errorData.error || ""}`
+        );
+      }
+
       const data = await res.json();
-      setImages((prev) => ({ ...prev, [scene]: data.image }));
+      // 백엔드에서 받은 이미지 URL로 상태 업데이트
+      setImages((prev) => ({ ...prev, [sceneId]: data.imageUrl }));
+
+      // Firestore에서 업데이트된 최신 데이터를 다시 불러와 cutsceneList 갱신
+      const updatedStoryData = await fetchCurrentStory();
+      if (updatedStoryData) {
+        setCutsceneList(updatedStoryData.cutscenes);
+      }
     } catch (err) {
-      console.error("❌ 서버 호출 실패:", err);
+      console.error("❌ 이미지 생성 요청 실패:", err);
+      alert(`이미지 생성 실패: ${err.message}`);
     }
     setIsGenerating(false);
   };
@@ -61,7 +90,7 @@ const ImagePage = () => {
   const handleBatchGenerate = async () => {
     setIsGenerating(true);
     for (const cut of cutsceneList) {
-      await handleImageGenerate(cut.scene);
+      await handleImageGenerate(cut.scene); // ✨ 컷씬 ID만 전달
     }
     setIsGenerating(false);
   };
@@ -135,15 +164,16 @@ const ImagePage = () => {
               </div>
               <button
                 className="bg-black text-white py-1 px-3 rounded hover:bg-gray-800 text-sm"
-                onClick={() => handleImageGenerate(cut.prompt, cut.scene)}
+                onClick={() => handleImageGenerate(cut.scene)} // ✨ 컷씬 ID만 전달
+                disabled={isGenerating || images[cut.scene]}
               >
-                이미지 생성
+                {images[cut.scene] ? "이미지 생성 완료" : "이미지 생성"}
               </button>
 
-              {images[cut.scene] && (
+              {(images[cut.scene] || cut.imageUrl) && (
                 <img
-                  src={images[cut.scene]}
-                  alt="생성된 이미지"
+                  src={images[cut.scene] || cut.imageUrl}
+                  alt={`장면 ${cut.scene} 생성된 이미지`}
                   className="mt-3 w-full rounded"
                 />
               )}

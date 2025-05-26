@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@api/leonardoai": "file:routes/.api/apis/leonardoai",
+    "@leonardo-ai/sdk": "^4.20.0",
+    "axios": "^1.9.0",
     "cors": "^2.8.5",
     "discord.js": "^14.19.3",
     "dotenv": "^16.5.0",
