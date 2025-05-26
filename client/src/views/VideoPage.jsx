@@ -111,7 +111,7 @@ const VideoPage = () => {
                   장면 {cut.scene}
                 </h3>
                 <p className="text-sm text-gray-700 mb-1">{cut.description}</p>
-                <p className="text-xs text-gray-500">
+                <p className="text-xs text-gray-500 mb-3">
                   ⏱️ 길이: {cut.video_time || 2.0}초
                 </p>
               </div>

@@ -131,7 +131,7 @@ const ImagePage = () => {
                 <h3 className="font-bold text-blue-600 mb-1">
                   장면 {cut.scene}
                 </h3>
-                <p className="text-sm text-gray-700 mb-3">{cut.prompt}</p>
+                <p className="text-sm text-gray-700 mb-3">{cut.image_prompt}</p>
               </div>
               <button
                 className="bg-black text-white py-1 px-3 rounded hover:bg-gray-800 text-sm"

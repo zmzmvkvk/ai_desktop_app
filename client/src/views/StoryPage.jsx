@@ -26,6 +26,8 @@ export default function StoryPage() {
         setStorySummary(data.summary);
         setCutsceneList(data.cutscenes);
         setSelectedCharacter(data.character);
+        // 만약 여기에 storyPrompt도 저장했다면 불러올 수 있습니다.
+        // setStoryPrompt(data.prompt);
       }
     }
     loadStory();
@@ -55,6 +57,9 @@ export default function StoryPage() {
 
   const handleGenerate = async () => {
     if (!imageFile) return alert("이미지를 업로드해주세요!");
+    if (!selectedCharacter) return alert("주인공을 선택해주세요!");
+    if (!storyPrompt.trim()) return alert("스토리 프롬프트를 입력해주세요!");
+
     setLoading(true);
     try {
       const result = await generateStoryWithImage(
@@ -63,8 +68,13 @@ export default function StoryPage() {
         selectedCharacter
       );
 
-      setStorySummary(result.summary || result.raw?.summary || "");
-      setCutsceneList(result.cutscenes || result.raw?.cutscenes || []);
+      // 백엔드에서 받은 결과가 직접 summary, cutscenes를 포함하도록 가정
+      setStorySummary(result.summary);
+      setCutsceneList(result.cutscenes);
+
+      // 디버깅 목적으로 콘솔에 출력하여 파싱 결과 확인
+      console.log("Generated Story Summary:", result.summary);
+      console.log("Generated Cutscenes:", result.cutscenes);
     } catch (err) {
       console.error("스토리 생성 실패:", err);
       const message =
@@ -76,8 +86,9 @@ export default function StoryPage() {
     }
   };
 
+  // 컷씬 목록의 video_time을 정확히 합산
   const totalSeconds = (cutsceneList || []).reduce(
-    (acc, cur) => acc + parseFloat(cur.video_time || 0),
+    (acc, cut) => acc + (cut.video_time || 0), // cut.video_time이 이미 숫자로 파싱되었다고 가정
     0
   );
 
@@ -151,13 +162,13 @@ export default function StoryPage() {
             className="w-full h-24 border border-gray-200 rounded-lg p-3 text-sm resize-none"
             value={storyPrompt}
             onChange={(e) => setStoryPrompt(e.target.value)}
-            placeholder="예: 스토리 프롬프트 구성"
+            placeholder="예: 스토리 프롬프트 구성 (ex: 잠수 대결에서 승리하는 스토리)"
           />
 
           <button
             onClick={handleGenerate}
             className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-full font-semibold"
-            disabled={loading}
+            disabled={loading || !selectedCharacter || !storyPrompt.trim()}
           >
             {loading ? "분석 중..." : "스토리 생성"}
           </button>
@@ -181,7 +192,7 @@ export default function StoryPage() {
           <div className="grid grid-cols-2 gap-4">
             {(cutsceneList ?? []).map((cut, index) => {
               const scene = cut.scene ?? index + 1;
-              const description = cut.description ?? cut; // 문자열일 경우 fallback
+              const description = cut.description; // description은 반드시 존재하므로 fallback 필요 없음
               return (
                 <div
                   key={scene}
@@ -200,8 +211,13 @@ export default function StoryPage() {
                       <b>Face:</b> {cut.face || "N/A"}
                     </p>
                     <p>
-                      <b>Duration:</b> {cut.video_time || "2.0"} sec
+                      <b>Duration:</b> {cut.video_time?.toFixed(1) || "N/A"} sec
                     </p>
+                    {/* 새로운 필드들 (필요하다면 여기에 추가적으로 표시) */}
+                    {/* <p><b>Image Prompt:</b> {cut.image_prompt || "N/A"}</p> */}
+                    {/* <p><b>Voice Over:</b> {cut.voice_over_text || "N/A"}</p> */}
+                    {/* <p><b>Sound Cue:</b> {cut.sound_effect_cue || "N/A"}</p> */}
+                    {/* <p><b>On Screen Text:</b> {cut.on_screen_text || "N/A"}</p> */}
                   </div>
                 </div>
               );

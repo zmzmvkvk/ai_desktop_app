@@ -1,214 +1,303 @@
 📘 Summary:
-A story featuring gfm_014x, an adventurous and determined figure, unfolds in the serene coastal town of Seaforth. With the annual "잠수 대결" (Dive Challenge) approaching, gfm_014x trains rigorously to perfect their diving techniques. As the competition day arrives, gfm_014x demonstrates extraordinary skills, facing thrilling underwater challenges and ultimately proving their prowess in the grand dive showdown. The spirit of adventure and dedication leads gfm_014x to achieve a remarkable victory in the Dive Challenge.
+gfm_014x is an aspiring artist whose dream is to become world-famous for creating breathtaking illustrations. The journey begins with a vision and takes gfm_014x through bustling marketplaces, inspiring vistas, and intense moments of creativity. With each stroke of the brush, gfm_014x's reputation grows, culminating in a triumphant moment when the world recognizes their artistic genius.
 
 🎬 Cutscenes:
-
-1. gfm_014x wakes up and looks around.
+1. description: gfm_014x awakens, sunlight filtering through their window.
    camera: wide shot
-   pose: sitting up
+   pose: sitting up in bed
    face: curious
    video_time: 1.8
-   prompt: A cartoon-style illustration of gfm_014x sitting up in bed, wide shot, curious face, morning light, flat vector, 2D clean style, white background, "gfm_014x"
+   image_prompt: gfm_014x_lora_tag, gfm_014x, cozy bedroom, morning light, soft shadows, warm colors, detailed illustration, curious expression, looking around
+   voice_over_text: A new day begins for gfm_014x.
+   sound_effect_cue: gentle morning ambiance
+   on_screen_text: The Awakening
 
-2. gfm_014x walks out into the morning light.
-   camera: tracking shot
-   pose: walking
-   face: calm
-   video_time: 2.0
-   prompt: A cartoon-style illustration of gfm_014x walking outside in morning light, tracking shot, calm face, bright colors, dynamic composition, seaside setting, "gfm_014x"
-
-3. gfm_014x stretches by the ocean.
+2. description: gfm_014x sketches ideas in a bustling café, surrounded by chatter.
    camera: medium shot
-   pose: stretching
+   pose: sketching intensely
    face: focused
-   video_time: 2.5
-   prompt: A cartoon-style illustration of gfm_014x stretching by the ocean, medium shot, focused face, sunrise background, vibrant colors, detailed waves, "gfm_014x"
-
-4. gfm_014x examines a diving watch.
-   camera: close-up
-   pose: holding watch
-   face: intrigued
    video_time: 2.2
-   prompt: A cartoon-style illustration of gfm_014x holding a diving watch, close-up, intrigued expression, digital display, colorful details, "gfm_014x"
+   image_prompt: gfm_014x_lora_tag, gfm_014x, vibrant café setting, bustling atmosphere, creative energy, intense focus, art supplies, detailed
+   voice_over_text: Capturing inspiration in a sketch.
+   sound_effect_cue: pencil scribbling
+   on_screen_text: Inspired Sketch
 
-5. gfm_014x dives into the water.
-   camera: wide shot
-   pose: diving
-   face: determined
-   video_time: 2.8
-   prompt: A cartoon-style illustration of gfm_014x diving into the ocean, wide shot, determined face, splash effect, clear blue water, dynamic angles, "gfm_014x"
+3. description: gfm_014x walks through a lively marketplace, eyes scanning for inspiration.
+   camera: tracking shot
+   pose: walking purposefully
+   face: calm and observant
+   video_time: 2.0
+   image_prompt: gfm_014x_lora_tag, gfm_014x, vibrant market square, diverse crowd, golden hour, dynamic angle, intricate details, determined stride
+   voice_over_text: Adventures call in Seaforth.
+   sound_effect_cue: marketplace chatter
+   on_screen_text: Seaforth Adventures
 
-6. gfm_014x swims underwater.
-   camera: underwater shot
-   pose: swimming
-   face: focused
-   video_time: 3.0
-   prompt: A cartoon-style illustration of gfm_014x swimming underwater, underwater shot, focused face, vibrant marine life, clear visibility, flowing movements, "gfm_014x"
-
-7. gfm_014x encounters colorful fish.
-   camera: medium shot
-   pose: reaching out
-   face: amazed
-   video_time: 3.5
-   prompt: A cartoon-style illustration of gfm_014x reaching out to colorful fish, medium shot, amazed face, underwater scenery, diverse marine life, bright tones, "gfm_014x"
-
-8. gfm_014x practices holding breath.
+4. description: gfm_014x stops at a stall, intrigued by colorful fabrics.
    camera: close-up
-   pose: holding nose
-   face: concentrated
-   video_time: 2.7
-   prompt: A cartoon-style illustration of gfm_014x practicing breath-holding, close-up, concentrated expression, bubbles rising, serene underwater, soft lighting, "gfm_014x"
+   pose: examining fabric
+   face: intrigued
+   video_time: 1.8
+   image_prompt: gfm_014x_lora_tag, gfm_014x, colorful fabric stall, rich textures, intrigued expression, detailed focus, immersive colors
+   voice_over_text: Colors spark new ideas.
+   sound_effect_cue: fabric rustling
+   on_screen_text: Vivid Textures
 
-9. gfm_014x surfaces and checks the time.
+5. description: gfm_014x climbs a hill, reaching a panoramic view of the city.
+   camera: wide shot
+   pose: arms wide open
+   face: awe
+   video_time: 2.2
+   image_prompt: gfm_014x_lora_tag, gfm_014x, scenic hilltop vista, panoramic city view, golden sunset, arms open, awe-inspired, vast horizon
+   voice_over_text: Inspiration from the heights.
+   sound_effect_cue: gentle breeze
+   on_screen_text: City of Dreams
+
+6. description: gfm_014x sets up an easel by the riverside, ready to create.
    camera: medium shot
-   pose: emerging
+   pose: setting up canvas
+   face: determined
+   video_time: 2.0
+   image_prompt: gfm_014x_lora_tag, gfm_014x, serene riverside, art setup, easel and canvas, determined expression, creative focus, natural beauty
+   voice_over_text: Canvas awaits the masterpiece.
+   sound_effect_cue: water flowing
+   on_screen_text: Riverside Studio
+
+7. description: gfm_014x paints the first strokes, colors blending beautifully.
+   camera: close-up
+   pose: painting intently
+   face: focused
+   video_time: 2.0
+   image_prompt: gfm_014x_lora_tag, gfm_014x, vibrant brushstrokes, artistic close-up, focused expression, vivid colors, dynamic artistry
+   voice_over_text: Imagination comes to life.
+   sound_effect_cue: gentle brush strokes
+   on_screen_text: Brushstrokes of Wonder
+
+8. description: gfm_014x steps back, evaluating the emerging artwork with satisfaction.
+   camera: medium shot
+   pose: stepping back
    face: satisfied
-   video_time: 3.2
-   prompt: A cartoon-style illustration of gfm_014x surfacing and checking the time, medium shot, satisfied expression, bright sun, sparkling water, cheerful atmosphere, "gfm_014x"
+   video_time: 2.0
+   image_prompt: gfm_014x_lora_tag, gfm_014x, emerging painting, satisfied expression, creative accomplishment, gallery setting, vibrant details
+   voice_over_text: Progress in every stroke.
+   sound_effect_cue: contemplative hum
+   on_screen_text: Artistic Progress
 
-10. gfm_014x prepares gear for the competition.
-    camera: wide shot
-    pose: organizing
-    face: focused
-    video_time: 3.1
-    prompt: A cartoon-style illustration of gfm_014x organizing diving gear, wide shot, focused face, colorful equipment, animated setting, anticipation in the air, "gfm_014x"
+9. description: gfm_014x stands before an art gallery, artwork displayed proudly.
+   camera: wide shot
+   pose: arms crossed confidently
+   face: proud
+   video_time: 2.0
+   image_prompt: gfm_014x_lora_tag, gfm_014x, prestigious art gallery, displayed artwork, confident stance, proud expression, elegant setting
+   voice_over_text: Art showcased to the world.
+   sound_effect_cue: camera shutters
+   on_screen_text: In the Spotlight
 
-11. gfm_014x arrives at the Dive Challenge venue.
-    camera: wide shot
-    pose: entering
-    face: excited
-    video_time: 3.3
-    prompt: A cartoon-style illustration of gfm_014x entering the Dive Challenge venue, wide shot, excited face, festive decoration, energetic crowd, vivid colors, "gfm_014x"
-
-12. gfm_014x greets fellow divers.
+10. description: gfm_014x receives praise from an art critic, a nod to their talent.
     camera: medium shot
-    pose: waving
-    face: friendly
-    video_time: 2.9
-    prompt: A cartoon-style illustration of gfm_014x waving to fellow divers, medium shot, friendly expression, diverse characters, lively ambiance, warm tones, "gfm_014x"
+    pose: accepting praise gracefully
+    face: appreciative
+    video_time: 1.8
+    image_prompt: gfm_014x_lora_tag, gfm_014x, art critique moment, appreciative expression, graceful acceptance, formal atmosphere, professional interaction
+    voice_over_text: Talent acknowledged by critics.
+    sound_effect_cue: applause
+    on_screen_text: Critical Acclaim
 
-13. gfm_014x listens to competition rules.
+11. description: gfm_014x feels a moment of doubt, reflecting in a quiet park.
     camera: close-up
-    pose: attentive
-    face: serious
-    video_time: 2.6
-    prompt: A cartoon-style illustration of gfm_014x listening to competition rules, close-up, serious face, attentive posture, animated expressions, focused environment, "gfm_014x"
+    pose: sitting on a bench, head in hands
+    face: contemplative
+    video_time: 2.2
+    image_prompt: gfm_014x_lora_tag, gfm_014x, serene park, introspective pose, contemplative expression, soft lighting, tranquil background
+    voice_over_text: Every artist faces doubt.
+    sound_effect_cue: soft wind rustling
+    on_screen_text: Moments of Reflection
 
-14. gfm_014x watches other divers perform.
-    camera: wide shot
-    pose: observing
-    face: analytical
-    video_time: 2.8
-    prompt: A cartoon-style illustration of gfm_014x observing divers perform, wide shot, analytical face, dynamic diving actions, vivid pool area, competitive spirit, "gfm_014x"
-
-15. gfm_014x takes a deep breath before diving.
-    camera: close-up
-    pose: deep breath
-    face: calm
-    video_time: 3.0
-    prompt: A cartoon-style illustration of gfm_014x taking a deep breath, close-up, calm face, serene background, gentle colors, focused intention, "gfm_014x"
-
-16. gfm_014x executes a perfect dive.
+12. description: gfm_014x finds encouragement from a child's admiration of their work.
     camera: medium shot
-    pose: diving
-    face: focused
-    video_time: 3.4
-    prompt: A cartoon-style illustration of gfm_014x executing a perfect dive, medium shot, focused face, seamless movement, sparkling water, graceful artistry, "gfm_014x"
+    pose: smiling down at child
+    face: warm and inspired
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, child admiration scene, warm smile, uplifting interaction, colorful artwork, heartfelt moment
+    voice_over_text: Renewed hope in a smile.
+    sound_effect_cue: child laughter
+    on_screen_text: Hope Renewed
 
-17. gfm_014x experiences an underwater current.
-    camera: underwater shot
-    pose: stabilizing
-    face: surprised
-    video_time: 3.1
-    prompt: A cartoon-style illustration of gfm_014x experiencing an underwater current, underwater shot, surprised expression, dynamic water movement, dramatic lighting, "gfm_014x"
-
-18. gfm_014x regains balance and continues swimming.
-    camera: wide shot
-    pose: swimming
-    face: determined
-    video_time: 3.2
-    prompt: A cartoon-style illustration of gfm_014x swimming determinedly, wide shot, determined face, overcoming challenges, energetic strokes, vivid underwater scene, "gfm_014x"
-
-19. gfm_014x navigates through underwater obstacles.
-    camera: medium shot
-    pose: dodging
-    face: concentrated
-    video_time: 3.3
-    prompt: A cartoon-style illustration of gfm_014x navigating underwater obstacles, medium shot, concentrated face, intricate coral formations, swift movements, vibrant colors, "gfm_014x"
-
-20. gfm_014x spots the finish line.
-    camera: wide shot
-    pose: accelerating
-    face: eager
-    video_time: 3.5
-    prompt: A cartoon-style illustration of gfm_014x spotting the finish line, wide shot, eager face, powerful swimming, radiant underwater glow, animated race atmosphere, "gfm_014x"
-
-21. gfm_014x surfaces triumphantly.
-    camera: medium shot
-    pose: emerging
-    face: joyful
-    video_time: 3.0
-    prompt: A cartoon-style illustration of gfm_014x surfacing triumphantly, medium shot, joyful expression, water droplets, bright daylight, victorious mood, "gfm_014x"
-
-22. gfm_014x reaches the judge's podium.
-    camera: wide shot
-    pose: walking
-    face: proud
-    video_time: 3.4
-    prompt: A cartoon-style illustration of gfm_014x walking to the judge's podium, wide shot, proud face, animated crowd, lively setting, colorful decorations, "gfm_014x"
-
-23. gfm_014x receives a medal.
-    camera: medium shot
-    pose: accepting
-    face: grateful
-    video_time: 3.2
-    prompt: A cartoon-style illustration of gfm_014x accepting a medal, medium shot, grateful face, shiny medal, cheerful atmosphere, celebratory tones, "gfm_014x"
-
-24. gfm_014x poses for a victory photo.
-    camera: close-up
-    pose: smiling
-    face: triumphant
-    video_time: 2.9
-    prompt: A cartoon-style illustration of gfm_014x posing for a victory photo, close-up, triumphant smile, glowing background, vibrant colors, happy moment, "gfm_014x"
-
-25. gfm_014x celebrates with fellow competitors.
-    camera: wide shot
-    pose: cheering
+13. description: gfm_014x paints furiously, inspiration reignited by newfound joy.
+    camera: dynamic close-up
+    pose: brush moving swiftly
     face: ecstatic
-    video_time: 3.3
-    prompt: A cartoon-style illustration of gfm_014x celebrating with fellow competitors, wide shot, ecstatic faces, animated crowd, festive scenery, colorful confetti, "gfm_014x"
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, dynamic painting action, vibrant energy, ecstatic expression, colorful splatters, passion unleashed
+    voice_over_text: Creation fueled by joy.
+    sound_effect_cue: energetic brushwork
+    on_screen_text: Passion Unleashed
 
-26. gfm_014x reflects on the journey.
-    camera: medium shot
-    pose: thoughtful
-    face: reflective
-    video_time: 3.1
-    prompt: A cartoon-style illustration of gfm_014x reflecting on the journey, medium shot, reflective expression, sunset background, warm colors, peaceful ambiance, "gfm_014x"
+14. description: gfm_014x receives an invitation to an international art exhibition.
+    camera: overhead shot
+    pose: opening invitation letter
+    face: surprised and honored
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, elegant invitation, surprised expression, prestigious opportunity, formal envelope, sophisticated setting
+    voice_over_text: Global recognition at hand.
+    sound_effect_cue: letter opening
+    on_screen_text: Invitation Received
 
-27. gfm_014x enjoys a moment by the sea.
+15. description: gfm_014x boards a plane, excitement and nerves intertwined.
+    camera: tracking shot
+    pose: boarding confidently
+    face: excited yet nervous
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, airport scene, boarding plane, mixed emotions, dynamic composition, travel anticipation
+    voice_over_text: A journey to the world.
+    sound_effect_cue: airplane boarding announcement
+    on_screen_text: World Journey
+
+16. description: gfm_014x arrives at the international venue, a grand art fair.
     camera: wide shot
-    pose: sitting
-    face: content
-    video_time: 3.5
-    prompt: A cartoon-style illustration of gfm_014x sitting by the sea, wide shot, content face, gentle waves, soft sunset light, serene setting, "gfm_014x"
+    pose: standing at entrance
+    face: awe-struck
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, grand art fair entrance, awe-struck expression, international setting, vibrant banners, cultural diversity
+    voice_over_text: The world stage awaits.
+    sound_effect_cue: bustling crowd
+    on_screen_text: Grand Entrance
 
-28. gfm_014x shares experiences with friends.
+17. description: gfm_014x interacts with fellow artists, sharing experiences.
     camera: medium shot
-    pose: talking
-    face: animated
-    video_time: 3.0
-    prompt: A cartoon-style illustration of gfm_014x sharing experiences with friends, medium shot, animated expressions, vibrant conversation, joyful tone, social atmosphere, "gfm_014x"
+    pose: animated conversation
+    face: enthusiastic
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, artistic interaction, enthusiastic expression, multicultural diversity, lively debate, creative exchange
+    voice_over_text: Connection through creativity.
+    sound_effect_cue: lively chatter
+    on_screen_text: Artistic Exchange
 
-29. gfm_014x plans for future adventures.
+18. description: gfm_014x unveils a masterpiece, capturing the crowd’s admiration.
     camera: close-up
-    pose: writing
-    face: inspired
-    video_time: 3.2
-    prompt: A cartoon-style illustration of gfm_014x planning future adventures, close-up, inspired face, notebook, imaginative sketches, creative environment, "gfm_014x"
+    pose: unveiling with flourish
+    face: proud
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, masterpiece unveiling, proud expression, spotlight effect, captivated audience, dramatic reveal
+    voice_over_text: Breath held in admiration.
+    sound_effect_cue: gasps of awe
+    on_screen_text: The Unveiling
 
-30. gfm_014x bids farewell to the Dive Challenge.
+19. description: gfm_014x stands before a captivated audience, feeling triumphant.
     camera: wide shot
-    pose: waving
-    face: hopeful
-    video_time: 3.4
-    prompt: A cartoon-style illustration of gfm_014x waving goodbye to the Dive Challenge, wide shot, hopeful expression, colorful banners, setting sun, emotional farewell, "gfm_014x"
+    pose: taking a bow
+    face: triumphant
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, standing ovation, triumphant expression, prestigious atmosphere, applauding audience, elegant setting
+    voice_over_text: Triumph on a global scale.
+    sound_effect_cue: standing ovation
+    on_screen_text: Global Triumph
+
+20. description: gfm_014x is interviewed by media, sharing an inspiring journey.
+    camera: medium shot
+    pose: speaking animatedly
+    face: passionate
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, media interview, passionate expression, engaging dialogue, professional setting, camera crew
+    voice_over_text: Words to inspire the masses.
+    sound_effect_cue: camera clicks
+    on_screen_text: Inspiring Words
+
+21. description: gfm_014x reflects by a quiet lake, content with their achievements.
+    camera: wide shot
+    pose: sitting by the water
+    face: peaceful
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, tranquil lakeside, peaceful expression, serene environment, soft reflections, contemplative moment
+    voice_over_text: Peace in success.
+    sound_effect_cue: gentle water lapping
+    on_screen_text: Serenity
+
+22. description: gfm_014x receives messages from fans worldwide, feeling loved.
+    camera: close-up
+    pose: reading messages
+    face: touched
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, heartfelt fan messages, touched expression, digital screen, warmth and connection, positive energy
+    voice_over_text: Love and support abound.
+    sound_effect_cue: message notification
+    on_screen_text: Fan Love
+
+23. description: gfm_014x decides to mentor young artists, passing on wisdom.
+    camera: medium shot
+    pose: teaching with enthusiasm
+    face: encouraging
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, mentoring young artists, encouraging expression, lively classroom, artistic environment, interactive lesson
+    voice_over_text: Giving back with knowledge.
+    sound_effect_cue: instructional chatter
+    on_screen_text: Mentorship
+
+24. description: gfm_014x is honored with an award for outstanding creativity.
+    camera: close-up
+    pose: accepting award
+    face: honored
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, prestigious award ceremony, honored expression, spotlight moment, elegant stage, celebratory mood
+    voice_over_text: Creativity earns its rewards.
+    sound_effect_cue: award announcement
+    on_screen_text: Honored
+
+25. description: gfm_014x celebrates with friends, a moment of joy and laughter.
+    camera: wide shot
+    pose: raising a glass
+    face: joyful
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, celebratory gathering, joyful expression, camaraderie, vibrant ambiance, social gathering
+    voice_over_text: Cheers to new horizons!
+    sound_effect_cue: clinking glasses
+    on_screen_text: Celebration
+
+26. description: gfm_014x receives a surprise gift, a paintbrush of legends.
+    camera: close-up
+    pose: unboxing gift
+    face: astonished
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, legendary paintbrush, astonished expression, delicate unboxing, artistic heritage, magical aura
+    voice_over_text: A legendary gift revealed.
+    sound_effect_cue: surprise sound
+    on_screen_text: Legendary Gift
+
+27. description: gfm_014x paints with the legendary brush, magic in every stroke.
+    camera: dynamic close-up
+    pose: painting energetically
+    face: inspired
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, dynamic painting action, inspired expression, magical brush effects, vibrant colors, artistic energy
+    voice_over_text: Magic flows through art.
+    sound_effect_cue: ethereal brushwork
+    on_screen_text: Enchanted Canvas
+
+28. description: gfm_014x stands before a completed masterpiece, history in the making.
+    camera: wide shot
+    pose: standing proudly
+    face: fulfilled
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, completed masterpiece, fulfilled expression, historical significance, artistic legacy, grand reveal
+    voice_over_text: Art immortalized in time.
+    sound_effect_cue: grand reveal
+    on_screen_text: Masterpiece
+
+29. description: gfm_014x receives global acclaim, their name echoing worldwide.
+    camera: close-up
+    pose: receiving accolades
+    face: humble
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, global recognition scene, humble expression, prestigious accolades, universal admiration, renowned figure
+    voice_over_text: Fame reaches every corner.
+    sound_effect_cue: worldwide cheers
+    on_screen_text: Worldwide Acclaim
+
+30. description: gfm_014x triumphantly holds their prize, a symbol of their victory.
+    camera: close-up
+    pose: holding prize aloft
+    face: ecstatic and proud
+    video_time: 2.0
+    image_prompt: gfm_014x_lora_tag, gfm_014x, gleaming prize, spotlight effect, celebratory atmosphere, confetti, triumphant smile, sharp focus
+    voice_over_text: A champion's unforgettable victory!
+    sound_effect_cue: triumphant fanfare
+    on_screen_text: The Champion
